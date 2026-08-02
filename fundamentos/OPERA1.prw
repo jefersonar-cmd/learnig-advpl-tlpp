@@ -20,5 +20,19 @@ User Function Opera1()
     nResp := nNum1 / nNum2 // divisão
     nResp := nNum4 % nNum2 // resto da divisão
 
-    
+    // operação de strings
+    cTexto1 := "João" + " Leão"
+    cTexto2 := "João,Paulo,Pedro,Tiago"
+    lResposta := cTexto1 $ cTexto2 // comparando strings
+
+    // operadores de comparação
+    lResposta := nNum1 > nNum2 // maior
+    lResposta := nNum1 < nNum2 // menor
+    lResposta := nNum1 = nNum2 // igualdade
+    lResposta := nNum1 >= nNum2 // maior ou igual
+    lResposta := nNum1 <= nNum2 // menor ou igual
+
+    // comparação de string
+    lResposta := cTexto1 == cTexto2 // exatamente iguais
+    lResposta := cTexto1 = cTexto2 // dá falso
 Return
