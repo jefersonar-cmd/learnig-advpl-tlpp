@@ -13,5 +13,12 @@ User Function Opera1()
     Local lResposta := .T.
     Local aNomes := {"JoÃ£o", "Maria", "Pedro"}
 
+    // Matemática
     nResp := nNum1 + nNum2 // soma
+    nResp := nNum1 - nNum3 // subtração
+    nResp := nNum1 * nNum2 // multiplicação
+    nResp := nNum1 / nNum2 // divisão
+    nResp := nNum4 % nNum2 // resto da divisão
+
+    
 Return
