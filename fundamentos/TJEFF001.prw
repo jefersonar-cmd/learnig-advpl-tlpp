@@ -1,4 +1,4 @@
-#include "Protheus.ch"
+#include "protheus.ch"
 
 /*/{Protheus.doc} TJEFF001
 Primeira aula de ADVPL

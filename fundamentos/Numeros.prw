@@ -1,4 +1,4 @@
-#Include "Protheus.ch"
+#Include "protheus.ch"
 
 Static nQtdDecim := 3
 Static nTamStr := 20

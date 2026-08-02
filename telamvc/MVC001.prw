@@ -1,5 +1,5 @@
-#Include "Protheus.ch"
-#Include "FwMVCDef.ch"
+#Include "protheus.ch"
+#Include "fwmvcdef.ch"
 
 /*/{Protheus.doc} MVC001
 Primeira Aula de MVC
