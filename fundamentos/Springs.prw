@@ -106,5 +106,5 @@ User Function Strings()
 
     // transforma qualquer valor em uma string com formatação
     cTexto1 := "00000000000000"
-    cResp := Transform(cTexto1, "@R 99.999.999/9999-99")
+    cResp := Transform(cTexto1, "@R 99.999.999/9999-99") // pesquisar no google para ver novas formas de formatação de texto
 Return
