@@ -62,4 +62,35 @@ User Function Datas()
     dDataRes := dDataAtual + nDiasAcres
     dDataRes := dDataAtual - nDiasAcres
     dDataRes := DaySum(dDataAtual, nDiasAcres)
+    dDataRes := DaySub(dDataAtual, nDiasAcres)
+
+    // adicionar ou reduzir meses de uma data
+    dDataRes := MonthSum(dDataAtual, 3)
+    dDataRes := MonthSub(dDataAtual, 3)
+
+    // adicionar ou reduzir anos de uma data
+    dDataRes := YearSum(dDataAtual, 3)
+    dDataRes := YearSub(dDataAtual, 3)
+
+    // diferença de dias, meses ou anos entre duas datas
+    nResp := DateDiffDay(CToD("01/02/2023"), Date())
+    nResp := DateDiffMonth(CToD("01/06/2023"), Date())
+    nResp := DateDiffYear(CToD("01/07/2026"), Date())
+
+    // retorna o número do dia da semana
+    nResp := Down(dDataAtual)
+
+    // descrição do dia da semana
+    cResp := DiaSemana(dDataAtual)
+
+    // retorna a primeira ou a última data do mês corrente
+    dDataRes := FirstDate(dDataAtual)
+    dDataRes := LastDate(dDataAtual)
+
+    // retorna o número do último dia do mês
+    nResp := Last_Day(dDataAtual)
+
+    // retorna o primeiro ou o último dia do ano de uma data
+    dDataRes := FirstYDate(dDataAtual)
+    dDataRes := LastYDate(dDateAtual)
 Return
